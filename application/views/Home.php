@@ -10,24 +10,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!--CSS-->
     <link href="<?php echo base_url()."css/style.css"?>"  rel="stylesheet" >
-
-
-
-    
-    
-
-    <title>Cryptocurrency</title>
+    <title>SOLUTI</title>
 </head>
 <body>
      <!--header section dimulai-->
      <header class="header">
-        <a href="#" class="logo"><i class="fas fa-bitcoin"></i>Cryptocurrency </a>
+        <a href="#" class="logo"><i class="fas fa-bitcoin"></i>SOLUSI IT</a>
         <nav class="navbar">
             <div id="nav-close" class="fas fa--times"></div>
             <a href="<?php echo base_url()."index.php/hal_admin"?>">Home</a>
-            <a href="tentang.php">About</a>
+            <!-- <a href="tentang.php">About</a>
             <a href="index.php">News</a>
-            <a href="index.php">BTC</a>
+            <a href="index.php">BTC</a> -->
             <a href="<?php echo base_url()."index.php/hal_utama/logout"?>">Logout</a>
         </nav>
 
@@ -52,18 +46,19 @@
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="second" style="background: url(<?php echo base_url()."img/cyrpto.jpg"?>) no-repeat;">
+                    <div class="second" style="background: url(<?php echo base_url()."img/bg_2.png"?>) no-repeat;">
                         <div class="content">
-                            <span>Mata Uang digital</span>
-                            <h3>Sejuta Potensi</h3>
-                            <p>sistem perlindungan cyptocurrency atau uang kripto adalah menggunakan kriptografi sebagai jaminan ,Kriptografi sendiri merupaka metode yang digunakan untuk melindungi informasi dan saluran komunikasi melalui penggunaan kode.</p>
+                            <span>Platform Project IT</span>
+                            <h3>Sejuta Kreativitas</h3>
+                            <p>Dalam pengembangan proyek IT, seperti aplikasi dan website, penting untuk memastikan keamanan dan integritas data serta transaksi. Melalui pendekatan yang tepat dalam desain dan implementasi, kita dapat menciptakan solusi digital yang aman dan terpercaya, memenuhi berbagai kebutuhan pengguna dan bisnis.</p>
                             <a href="#" class="btn">Jelajahi</a>
+
                         </div>
                         
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="second" style="background: url(<?php echo base_url()."img/crypto1.png"?>) no-repeat;">
+                    <div class="second" style="background: url(<?php echo base_url()."img/bg_1.jpg"?>) no-repeat;">
                     </div>
                 </div>
                 
@@ -74,185 +69,112 @@
     </section>
     <!--Kategori-->
     <section class="category">
-        <h1 class="heading">Jenis -Jenis Cryptocurrency</h1>
+        <h1 class="heading">Portofolio project IT</h1>
 
         <div class="box-container">
             <div class="box">
-                <img src="<?php echo base_url()."img/btc.png"?>" alt="">
-                <h3>Bitcoin</h3>
-                <p>Jenis cryptocurrency yang pertama kali muncul pada 2009 oleh pihak yang bernama Satoshi Nakamoto.</p>
+                <img src="<?php echo base_url()."img/logobengkod.png"?>" alt="">
+                <h3>Bengkel Koding</h3>
+                <p>LMS yang membantu dalam pembelajaran mata kuliah bengkel Koding Universitas dian nuswantoro.</p>
                 <br>
                 <br>
-                <a href="https://www.bitcoin.co.id/" class="btn">read more</a>
+                <a href="https://bengkelkoding.rayhanashlikh.my.id/" class="btn">read more</a>
             </div>
             <div class="box">
-                <img src="<?php echo base_url()."img/eth.jpg"?>" alt="">
-                <h3>Ethereum</h3>
-                <p>sistem blockchain open-source terdesentralisasi yang menampilkan cryptocurrency-nya, Ether.</p>
+                <img src="<?php echo base_url()."img/logosiresma.png"?>" alt="">
+                <h3>SIRESMA</h3>
+                <p>sistem Resik Mandiri untuk membantu Pengolahan bank Sampah Di kelurahan sambiroto, tembalang</p>
                 <br>
                 <br>
-                <a href="https://ethereum.org/en/" class="btn">read more</a>
+                <a href="https://play.google.com/store/apps/details?id=com.siresma&pcampaignid=web_share" class="btn">read more</a>
             </div>
             <div class="box">
-                <img src="<?php echo base_url()."img/terra.png"?>" alt="">
-                <h3>Terra</h3>
-                <p>Terra yaitu merupakan Mata uang digital yang termasuk adalah salah satu cryptocurrency terbaik yang akan bernilai investasi pada tahun 2022.</p>
-                <a href="https://www.terra.money/" class="btn">read more</a>
+                <img src="<?php echo base_url()."img/apoti.png"?>" alt="">
+                <h3>APOTI</h3>
+                <p>Aplikasi posyandu melati untuk daerah desa janegara dalam rangka membantu petugas posyandu untuk manajemen data pasien ibu hamil,remaja perempuan, dan anak balita</p>
+                <a href="https://github.com/ShakaArs/AplikasiApoti.git" class="btn">read more</a>
             </div>
-            <div class="box">
-                <img src="<?php echo base_url()."img/solana.png"?>" alt="">
-                <h3>Solana </h3>
-                <p> diluncurkan pada April 2019 untuk menyediakan solusi keuangan terdesentralisasi (DeFi) seperti pemrosesan pembayaran, kontrak pintar, stablecoin, layanan pinjaman peer-to-peer, dan banyak lagi.</p>
-                <a href="https://solana.com/" class="btn">read more</a>
-            </div>
-            <div class="box">
-                <img src="<?php echo base_url()."img/shiba.png"?>" alt="">
-                <h3>Shiba Inu</h3>
-                <p> Shiba Inu atau SHIB pertama kali diluncurkan pada Agustus 2020. ni adalah salah satu mata uang kripto terbaik yang layak untuk diinvestasikan pada tahun 2022.</p>
-                <br>
-                <br>
-                <a href="https://shibatoken.com/" class="btn">read more</a>
-            </div>
-            <div class="box">
-                <img src="<?php echo base_url()."img/feather.png"?>" alt="">
-                <h3>Feathercoin</h3>
-                <p> Feathercoin adalah jenis cryptocurrency yang bersifat open source. Jenis mata uang kripto ini dibuat oleh Peter Bushnell, seorang IT officer di Brasenose College</p>
-                <br>
-                <br>
-                <a href="https://feathercoin.com/" class="btn">read more</a>
-            </div>
+            <!--  -->
         </div>
-        <!--Kuliner-->
-        <section class="shop" id="shop">
-            <h1 class="heading">Konversi Cryptocurrency ke dollar</h1>
-            <div class="swiper product-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/grafikbtc.png"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/grafikbtc.png"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>Bitcoin</h3>
-                            <div class="price">$29.884,50</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/grafikrth.png"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/grafikrth.png"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>Ethereum </h3>
-                            <div class="price">$2.062,73</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/graifterrea.png"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/graifterrea.png"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>terra </h3>
-                            <div class="price">$0.0000000016</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/grafiksolana.jpg"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/grafiksolana.jpg"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>Solana </h3>
-                            <div class="price">$51,81 </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/grafikshiba.png"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/grafikshiba.png"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>Shiba Inu</h3>
-                            <div class="price">$0,00001239</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="<?php echo base_url()."img/grafikftc.jpg"?>" alt="">
-                            <div class="icons2">
-                                <a href="#" class="fas fa-shopping-cart"></a>
-                                <a href="<?php echo base_url()."img/grafikftc.jpg"?>" class="fas fa-eye"></a>
-                                <a href="#" class="fas fa-share"></a>
-                            </div>
-                        </div>
-                        <div class="content2">
-                            <h3>Feathercoin </h3>
-                            <div class="price">$0.016</div>
-                        </div>
-                    </div>
-                        
-                    </div>
-                </div>
-                <br>
-                <br>
-                
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-            
-        </section>
-        <h1 class="heading">Para Penemu Cryptocurrency</h1>
-       
-                <center><table class="tabel1">
-                <tr>
-                    <td>No</td>
-                    <td>Mata Uang</td>
-                    <td>Nama</td>
-                    <td>Negara</td>
-                    <td>Tahun</td>
-                    <td>Aksi</td>
-                    <td>Aksi</td>
-
-                </tr>
-                <?php
-                    foreach($data as $dat){
-                        echo "<tr>";
-                                echo"<td>" .$dat['no']."<br>";
-                                echo"<td> " .$dat['mata_uang']."<br>";
-                                echo"<td> " .$dat['nama']."<br>";
-                                echo"<td> " .$dat['negara']."<br>";
-                                echo"<td> " .$dat['tahun']." ";
-                                echo "<td>" ."<a href=".base_url().'index.php/hal_admin/hapus_data/'.$dat['no']. ">"."Hapus</a>";
-                                echo "<td>" ."<a href=".base_url().'index.php/hal_admin/ambil_datawhere/'.$dat['no']. ">"."Update</a>";
-                        echo "</tr>";
-                    }
-                ?>
-
+        <br>
+        <br>
+        <h1 class="heading">Data Para konsumen baru SOLUTI</h1>
+        <center>
+                <table class="table1">
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Proyek</th>
+                        <th>Client</th>
+                        <th>Tanggal Mulai</th>
+                        <th>Tanggal Selesai</th>
+                        <th>Pimpinan Proyek</th>
+                        <th>Keterangan</th>
+                        <th>Aksi</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <?php foreach ($data_proyek as $item): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($item['id'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['namaProyek'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['client'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['tanggalMulai'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['tanggalSelesai'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['pimpinanProyek'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($item['keterangan'] ?? 'N/A'); ?></td>
+                        <td>
+                            <a href="<?php echo site_url('proyek/edit/' . intval($item['id'])); ?>">Edit</a>
+                        </td>
+                        <td>
+                            <a href="<?php echo site_url('proyek/delete/' . intval($item['id'])); ?>">Delete</a>
+                            </td>
+                    </tr>
+                    <?php endforeach; ?>
                 </table>
-                        </center>
-                        <br>
-                        <center><a href="<?php echo base_url()."index.php/hal_admin/baca_form";?>" class="btn">Tambah Data</a></center>
+                
+            </center>
+            <br>
+            <br><br>
+            <center><a href="<?php echo site_url('proyek/create'); ?>">Tambah Data</a></center>
+            <br>
+            <br><br>
+            <br>
+            <h1 class="heading">Daftar Lokasi</h1>
+            <center>
+                <table class="table1">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nama Lokasi</th>
+                        <th>Negara</th>
+                        <th>Provinsi</th>
+                        <th>Kota</th>
+                        <th>Aksi</th>
+                        <th>Aksi</th>
+                    </tr>
+                    <?php foreach ($data_location as $location): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($location['id'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($location['nama_lokasi'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($location['negara'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($location['provinsi'] ?? 'N/A'); ?></td>
+                        <td><?php echo htmlspecialchars($location['kota'] ?? 'N/A'); ?></td>
+                        <td>
+                            <a href="<?php echo site_url('lokasi/edit/' . intval($item['id'])); ?>">Edit</a>
+                        </td>
+                        <td>
+                            <a href="<?php echo site_url('lokasi/delete/' . intval($item['id'])); ?>">Delete</a>
+                            </td>
+                    </tr>
+                    <?php endforeach; ?>
+                </table>
+            </center>
+            <br>
+            <center><a href="<?php echo site_url('proyek/create'); ?>">Tambah Data</a></center>
+        
+
+
+
+
+
         
     </section>
     <!--JAVA SWIPPE-->

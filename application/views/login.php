@@ -9,7 +9,7 @@
     </head>
         <body>
             <div class="center">
-                <h1>LOGIN PROYEK</h1>
+                <h1>LOGIN</h1>
                 <form action="<?php echo base_url()."index.php/hal_utama/aksi_login";?>" method="POST">
                         <div class="txt_field">
                             <input type="text" required name="username">
