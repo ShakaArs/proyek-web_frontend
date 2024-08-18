@@ -122,7 +122,8 @@
                         <td><?php echo htmlspecialchars($item['pimpinanProyek'] ?? 'N/A'); ?></td>
                         <td><?php echo htmlspecialchars($item['keterangan'] ?? 'N/A'); ?></td>
                         <td>
-                            <a href="<?php echo site_url('proyek/edit/' . intval($item['id'])); ?>">Edit</a>
+                        <a href="<?php echo site_url('proyek/edit/' . intval($item['id'])); ?>">Edit</a>
+
                         </td>
                         <td>
                             <a href="<?php echo site_url('proyek/delete/' . intval($item['id'])); ?>">Delete</a>
@@ -158,8 +159,9 @@
                         <td><?php echo htmlspecialchars($location['provinsi'] ?? 'N/A'); ?></td>
                         <td><?php echo htmlspecialchars($location['kota'] ?? 'N/A'); ?></td>
                         <td>
-                            <a href="<?php echo site_url('lokasi/edit/' . intval($item['id'])); ?>">Edit</a>
+                            <a href="<?php echo site_url('lokasi/edit/' . html_escape(intval($item['id']))); ?>">Edit</a>
                         </td>
+
                         <td>
                             <a href="<?php echo site_url('lokasi/delete/' . intval($item['id'])); ?>">Delete</a>
                             </td>
@@ -168,7 +170,7 @@
                 </table>
             </center>
             <br>
-            <center><a href="<?php echo site_url('proyek/create'); ?>">Tambah Data</a></center>
+            <center><a href="<?php echo site_url('lokasi/create'); ?>">Tambah Data</a></center>
         
 
 
